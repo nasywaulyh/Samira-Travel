@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samira Travel - Haji & Umroh</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; }
+    header { background:#046865; color:white; text-align:center; padding:50px 20px; }
+    header h1 { font-size:2.5rem; margin-bottom:10px; }
+    header p { font-size:1.2rem; margin-bottom:20px; }
+    .cta-btn {
+      background:#f4d03f; color:#000; padding:15px 30px; 
+      text-decoration:none; font-weight:bold; border-radius:8px;
+      transition:0.3s;
+    }
+    .cta-btn:hover { background:#d4ac0d; }
+    section { padding:50px 20px; max-width:1000px; margin:auto; }
+    .benefits, .testimoni { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+    .card { background:#f9f9f9; padding:20px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    footer { background:#222; color:#eee; text-align:center; padding:20px; }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <header>
+    <h1>Samira Travel</h1>
+    <p>Teman Perjalanan Ibadah Haji & Umroh Anda</p>
+    <a class="cta-btn" href="https://wa.me/6281234567890" target="_blank">Daftar Sekarang via WhatsApp</a>
+  </header>
+
+  <!-- Benefits -->
+  <section>
+    <h2 style="text-align:center;">Kenapa Pilih Samira Travel?</h2>
+    <div class="benefits">
+      <div class="card">✔ Terpercaya & Berizin Resmi Kemenag</div>
+      <div class="card">✔ Harga Terjangkau & Transparan</div>
+      <div class="card">✔ Pembimbing Berpengalaman</div>
+      <div class="card">✔ Fasilitas Hotel & Transportasi Nyaman</div>
+    </div>
+  </section>
+
+  <!-- Paket -->
+  <section>
+    <h2 style="text-align:center;">Paket Haji & Umroh 2025</h2>
+    <div class="benefits">
+      <div class="card">
+        <h3>Umroh Reguler</h3>
+        <p>Mulai dari Rp 28.000.000</p>
+        <a class="cta-btn" href="https://wa.me/6281234567890">Info Lengkap</a>
+      </div>
+      <div class="card">
+        <h3>Umroh Plus Turki</h3>
+        <p>Mulai dari Rp 38.000.000</p>
+        <a class="cta-btn" href="https://wa.me/6281234567890">Info Lengkap</a>
+      </div>
+      <div class="card">
+        <h3>Haji Khusus</h3>
+        <p>Mulai dari Rp 120.000.000</p>
+        <a class="cta-btn" href="https://wa.me/6281234567890">Info Lengkap</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section>
+    <h2 style="text-align:center;">Testimoni Jamaah</h2>
+    <div class="testimoni">
+      <div class="card">
+        <p>"Alhamdulillah perjalanan umroh saya berjalan lancar, pelayanan Samira Travel sangat baik!"</p>
+        <strong>- Ibu Siti, Bandung</strong>
+      </div>
+      <div class="card">
+        <p>"Pembimbing sabar dan ramah, fasilitas hotel sangat nyaman. InsyaAllah ikut lagi."</p>
+        <strong>- Pak Ahmad, Jakarta</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Akhir -->
+  <section style="text-align:center;">
+    <h2>Siap Berangkat Ibadah?</h2>
+    <p>Hubungi kami sekarang untuk informasi pendaftaran Haji & Umroh bersama Samira Travel.</p>
+    <a class="cta-btn" href="https://wa.me/6281234567890" target="_blank">Hubungi via WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Samira Travel | Izin Resmi Kemenag RI</p>
+    <p>Alamat: Jl. Contoh No. 123, Jakarta | Telp: 021-123456</p>
+  </footer>
+</body>
+</html>
